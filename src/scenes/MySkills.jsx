@@ -134,7 +134,7 @@ const MySkills = () => {
 
         
         <motion.div
-           className="md:w-1/3 mt-10 "
+           className="md:w-1/3 mt-16 "
            initial="hidden"
            whileInView="visible"
            viewport={{ once: true, amount: 0.5 }}
