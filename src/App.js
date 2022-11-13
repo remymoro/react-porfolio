@@ -55,6 +55,9 @@ function App() {
                  {/* Projets*/}
                     <Projets/>
                 </div>
+                <div className="w-5/6">
+                    
+                </div>
 
 
      </div>
