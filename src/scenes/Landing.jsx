@@ -13,7 +13,8 @@ import SocialMediaIcons from  '../components/SocialMediaIcons'
 
 const Landing = ({setSelectedPage})=>{
     const isAboveMediumScreens = useMediaQuery('(min-width:1060px)')
-
+    
+      
 
 
     return(
@@ -62,8 +63,9 @@ const Landing = ({setSelectedPage})=>{
                             </span>
                         </p>
                         <p className="mt-10 mb-7 text-sm text-center md:text-start">
-                            Adipiscing arcu, in aliquam fringilla cursus. Elit arcu elementum
-                            viverra malesuada sem ac faucibus dolor. Sagittis scelerisque.
+                        Passionné de développement informatique, j'ai débuté en 2020 avec (Grafikart,udemy).<br></br>
+                        j'ai rejoint la plate-forme dyma qui proposé des formations sur différentes technologie 
+                        (Symfony,PHP,)
                         </p>
                       </motion.div>
                          {/* call to action  */}

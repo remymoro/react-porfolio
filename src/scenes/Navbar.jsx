@@ -9,7 +9,8 @@ const Link = ({ page,selectedPage,setSelectedPage})=>{
   
     const lowerCasePage = page.toLowerCase();
 
-
+    
+     
     return(
         <Anchorlink className={`${selectedPage === lowerCasePage ? 
         "text-yellow" : ''} hover:text-yellow transition duration-500`}
@@ -18,6 +19,8 @@ const Link = ({ page,selectedPage,setSelectedPage})=>{
         >{page}</Anchorlink>
     )
 }
+
+
         
         
 
@@ -39,31 +42,27 @@ const Navbar = ({isTopOfPage,selectedPage,setSelectedPage}) => {
        
                 {/* Navigation du bureau */}
 
-                {isAboveMediumScreens ? (
+                {isAboveMediumScreens ? ( 
                     <div className="flex justify-beetwen gap-16 font-opensans text-sm font-semibold">
                     <Link
                     page={"Accueil"}
-                    selectedPage={setSelectedPage}
+                    selectedPage={selectedPage}
                     setSelectedPage={setSelectedPage}
                     />
                     <Link
                     page={"Competences"}
-                    selectedPage={setSelectedPage}
+                    selectedPage={selectedPage}
                     setSelectedPage={setSelectedPage}
                     />
                     <Link
                     page={"Projets"}
-                    selectedPage={setSelectedPage}
+                    selectedPage={selectedPage}
                     setSelectedPage={setSelectedPage}
                     />
-                    <Link
-                    page={"Parcours"}
-                    selectedPage={setSelectedPage}
-                    setSelectedPage={setSelectedPage}
-                    />
+                    
                     <Link
                     page={"Contact"}
-                    selectedPage={setSelectedPage}
+                    selectedPage={selectedPage}
                     setSelectedPage={setSelectedPage}
                     />
                     
@@ -98,11 +97,6 @@ const Navbar = ({isTopOfPage,selectedPage,setSelectedPage}) => {
                                 />
                                 <Link
                                 page={"Projets"}
-                                selectedPage={setSelectedPage}
-                                setSelectedPage={setSelectedPage}
-                                />
-                                <Link
-                                page={"Parcours"}
                                 selectedPage={setSelectedPage}
                                 setSelectedPage={setSelectedPage}
                                 />

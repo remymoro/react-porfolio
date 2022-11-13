@@ -3,6 +3,10 @@ import { motion } from "framer-motion";
 
 
 
+
+
+
+
 const container = {
   hidden:{},
   visible:{
@@ -39,7 +43,8 @@ const Project = ({title})=>{
 
 
 
-const Projets = () => {
+const Projets = ({selectedPage,setSelectedPage}) => {
+
 
     return(
         <section id="projets" className="pt-48 pb-48">
@@ -85,7 +90,7 @@ const Projets = () => {
             className="flex justify-center text-center items-center p-10 bg-red
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
               >
-            BEAUTIFUL USER INTERFACES
+            Expérience utilisateur 
           </div>
 
   
@@ -105,9 +110,10 @@ const Projets = () => {
             className="flex justify-center text-center items-center p-10 bg-blue
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
           >
-            SMOOTH USER EXPERIENCE
+           EXPÉRIENCE UTILISATEUR FLUIDE
           </div>
-            
+
+        
 
             </motion.div>
             </div>

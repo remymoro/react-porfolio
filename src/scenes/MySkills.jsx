@@ -11,6 +11,7 @@ import {motion} from "framer-motion"
 
 const MySkills = () => {
 
+
   const isAboveLarge = useMediaQuery("(min-width: 1060px)");
 
 
@@ -40,7 +41,7 @@ const MySkills = () => {
           </p>
         </motion.div>
 
-        <div className="mt-16 md:mt-0">
+        <div className="mt-10 md:mt-0">
           {isAboveLarge ? (
             <div
               className="relative z-0 ml-20 before:absolute before:-top-10 before:-left-10
