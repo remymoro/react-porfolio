@@ -85,8 +85,8 @@ const Contact = () => {
             />
             {errors.name && (
               <p className="text-red mt-1">
-                {errors.name.type === "required" && "This field is required."}
-                {errors.name.type === "maxLength" && "Max length is 100 char."}
+                {errors.email.type === "required" && "Le champs est requis"}
+                {errors.email.type === "pattern" && "Mail invalid"}
               </p>
             )}
 
@@ -101,8 +101,8 @@ const Contact = () => {
             />
             {errors.email && (
               <p className="text-red mt-1">
-                {errors.email.type === "required" && "This field is required."}
-                {errors.email.type === "pattern" && "Invalid email address."}
+                {errors.email.type === "required" && "Le champs est requis"}
+                {errors.email.type === "pattern" && "Mail invalid"}
               </p>
             )}
 
@@ -120,9 +120,9 @@ const Contact = () => {
             {errors.message && (
               <p className="text-red mt-1">
                 {errors.message.type === "required" &&
-                  "This field is required."}
+                  "Le champs est requis "}
                 {errors.message.type === "maxLength" &&
-                  "Max length is 2000 char."}
+                  "maximum 200 caractères"}
               </p>
             )}
 

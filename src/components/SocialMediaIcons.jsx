@@ -1,6 +1,8 @@
 import {
   FaGithub,
   FaLinkedin,
+  FaTwitch,
+  FaTwitterSquare
 } from 'react-icons/fa';
 
 
@@ -16,12 +18,18 @@ const SocialMediaIcons = ()=>{
                <FaLinkedin size={30} />
             </a>
             <a
-              className='flex justify-between items-center w-full text-gray-300'
+              className=''
               href='https://github.com/remymoro'
             >
                <FaGithub size={30} />
             </a>
-          
+            <a
+              className=''
+              href='https://www.twitch.tv/blenderfuturama'
+            >
+               <FaTwitch size={30} />
+            </a>
+            
          
       
       

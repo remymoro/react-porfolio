@@ -36,8 +36,8 @@ const MySkills = () => {
           </p>
           <LineGradient width="w-1/3" />
           <p className="mt-10 mb-7">
-            Aliquam, amet dui feugiat facilisi dui. Aliquam aliquet integer ut
-            fames odio in at.
+            Les compétences développé dans le cadre de mon parcours chez Dyma et dans la suite 
+            via mon Titre pro
           </p>
         </motion.div>
 
